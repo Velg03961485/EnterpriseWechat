@@ -1,0 +1,273 @@
+
+
+
+.content{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.contentBack{
+	width: 100%;
+	height: 24rpx;
+	display: flex;
+	flex-direction: row;
+	margin-top: 32rpx;
+}
+.contentBackTit{
+	font-size: 24rpx;
+	font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+	font-weight: 400;
+	text-align: left;
+	color: #333333;
+	line-height: 24rpx;
+	margin-left: 34rpx;
+}
+.contentBackTxt{
+	font-size: 24rpx;
+	font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+	font-weight: 400;
+	text-align: justifyLeft;
+	color: #3e7bf8;
+	line-height: 24rpx;
+	margin-left: 8rpx;
+}
+.contentBackImg{
+	width: 10rpx;
+	height: 18rpx;
+	margin-left: 10rpx;
+	margin-top: 4rpx;
+}
+
+
+.indexHaveLineTop{
+	width: 100%;
+	height: 94rpx;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 14rpx;
+}
+.indexHaveLineTopL{
+	height: 32rpx;
+	opacity: 1;
+	font-size: 32rpx;
+	font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+	font-weight: bold;
+	text-align: justifyLeft;
+	color: #333333;
+	line-height: 46rpx;
+	margin-left: 36rpx;
+}
+.indexHaveLineTopR{
+	width: 32rpx;
+	height: 32rpx;
+	margin-right: 40rpx;
+	margin-top: 32rpx;
+}
+
+
+
+.indexNoLine_cen{
+	width: 644rpx;
+	height: 132rpx;
+	opacity: 1;
+	background: #f6fafb;
+	border-radius: 8rpx;
+	padding-left: 10rpx;
+	margin-left: 28rpx;
+	display: flex;
+	flex-direction: row;
+}
+.indexNoLine_cenL{
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+}
+.indexNoLine_cenR{
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+}
+.indexNoLine_cenI{
+	height: 26rpx;
+	opacity: 1;
+	font-size: 24rpx;
+	font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+	font-weight: 500;
+	text-align: left;
+	display: flex;
+	flex-direction: row;
+}
+.indexNoLine_cenIL{
+	color: #999999;
+}
+.indexNoLine_cenIR{
+	color: #333333;
+	margin-left: 5rpx;
+}
+.indexHaveLineTen_cenL{
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+}
+.indexHaveLineTen_cenR{
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+}
+
+.contactsTit{
+	height: 24rpx;
+	opacity: 1;
+	font-size: 24rpx;
+	font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+	font-weight: 500;
+	text-align: left;
+	color: #333333;
+	margin-top: 22rpx;
+	margin-left: 42rpx;
+}
+
+
+
+
+.indexNoLine_Bet{
+	width: calc(100% - 28rpx);
+	height: 64rpx;
+	border-bottom: 2rpx solid #dedede;
+	display: flex;
+	flex-direction: row;
+	margin-left: 28rpx;
+	margin-top: 62rpx;
+}
+.indexNoLine_BetIt1{
+	width: 168rpx;
+	height: 64rpx;
+	text-align: center;
+	opacity: 1;
+	font-size: 24rpx;
+	font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+	font-weight: 400;
+	text-align: center;
+	color: #808080;
+	line-height: 64rpx;
+	border-top: 1rpx solid #dedede;
+	border-left: 1rpx solid #dedede;
+}
+.indexNoLine_BetIt2{
+	width: 168rpx;
+	height: 64rpx;
+	text-align: center;
+	opacity: 1;
+	font-size: 24rpx;
+	font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+	font-weight: 400;
+	text-align: center;
+	color: #808080;
+	line-height: 64rpx;
+	border-top: 1rpx solid #dedede;
+	border-left: 1rpx solid #dedede;
+	border-right: 1rpx solid #dedede;
+}
+
+.indexNoLine_BetItAcive{
+	color: #333333;
+	border-top: 6rpx solid #3e7bf8;
+}
+
+
+
+
+.contactsDeTy_1{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.contactsDeTy_1Item{
+	font-size: 24rpx;
+	font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+	font-weight: 400;
+	text-align: left;
+	color: #333333;
+	line-height: 24rpx;
+	margin-top: 36rpx;
+	margin-left: 26rpx;
+}
+
+
+.contactsDeTy_2{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.contactsDeTy_2Item{
+	width: 632rpx;
+	height: 178rpx;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	border-bottom: 2rpx solid #DEDEDE;
+}
+.contactsDeTy_2ItemTop{
+	display: flex;
+	flex-direction: row;
+}
+.contactsDeTy_2ItemTopL{
+	height: 22rpx;
+	opacity: 1;
+	font-size: 24rpx;
+	font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+	font-weight: bold;
+	text-align: left;
+	color: #333333;
+	margin-top: 40rpx;
+}
+.contactsDeTy_2ItemTopR{
+	width: 120rpx;
+	height: 40rpx;
+	opacity: 1;
+	background: #e4f1fa;
+	border-radius: 20rpx;
+	margin-left: 22rpx;
+	margin-top: 32rpx;
+	font-size: 20rpx;
+	font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+	font-weight: 400;
+	text-align: center;
+	color: #34a8f9;
+	line-height: 40rpx;
+}
+.contactsDeTy_2ItemCen{
+	font-size: 24rpx;
+	font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+	font-weight: 500;
+	text-align: left;
+	color: #808080;
+	line-height: 24rpx;
+	margin-top: 12rpx;
+}
+.contactsDeTy_2ItemBot{
+	font-size: 24rpx;
+	font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+	font-weight: 500;
+	text-align: left;
+	color: #808080;
+	line-height: 24rpx;
+	margin-top: 22rpx;
+}
+
+.contactsDeTy_2More{
+	width: 100%;
+	height: 24rpx;
+	opacity: 1;
+	font-size: 24rpx;
+	font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+	font-weight: 500;
+	text-align: left;
+	color: #3e7bf8;
+	text-align: center;
+	margin-top: 12rpx;
+}

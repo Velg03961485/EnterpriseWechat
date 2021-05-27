@@ -1,0 +1,534 @@
+
+.content{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.indexNoLine{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.indexNoLine_top{
+	width: 100%;
+	height: 90rpx;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	/* border: 1rpx solid #007AFF; */
+}
+.indexNoLine_topL{
+	display: flex;
+	flex-direction: row;
+	margin-left: 26rpx;
+	align-items: center;
+}
+.indexNoLine_topLName{
+	height: 32rpx;
+	opacity: 1;
+	font-size: 32rpx;
+	font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+	font-weight: bold;
+	text-align: justifyLeft;
+	color: #333333;
+	line-height: 32rpx;
+}
+.indexNoLine_topLI{
+	height: 24rpx;
+	opacity: 1;
+	font-size: 24rpx;
+	font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+	font-weight: 400;
+	text-align: justifyLeft;
+	color: #07c160;
+	line-height: 24rpx;
+	margin-left: 8rpx;
+}
+.indexNoLine_topR{
+	display: flex;
+	flex-direction: row;
+	margin-right: 38rpx;
+	align-items: center;
+}
+.indexNoLine_topRT{
+	height: 24rpx;
+	opacity: 1;
+	font-size: 24rpx;
+	font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+	font-weight: 400;
+	text-align: justifyLeft;
+	color: #3e7bf8;
+	line-height: 24rpx;
+	margin-right: 10rpx;
+}
+.indexNoLine_topRImg{
+	width: 20rpx;
+	height: 20rpx;
+}
+
+.indexNoLine_cen{
+	width: 644rpx;
+	height: 132rpx;
+	opacity: 1;
+	background: #f6fafb;
+	border-radius: 8rpx;
+	padding-left: 10rpx;
+	margin-left: 28rpx;
+	display: flex;
+	flex-direction: row;
+}
+.indexNoLine_cenL{
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+}
+.indexNoLine_cenR{
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+}
+.indexNoLine_cenI{
+	height: 26rpx;
+	opacity: 1;
+	font-size: 24rpx;
+	font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+	font-weight: 500;
+	text-align: left;
+	display: flex;
+	flex-direction: row;
+}
+.indexNoLine_cenIL{
+	color: #999999;
+}
+.indexNoLine_cenIR{
+	color: #333333;
+	margin-left: 5rpx;
+}
+
+.indexNoLine_Bet{
+	width: calc(100% - 28rpx);
+	height: 64rpx;
+	border-bottom: 2rpx solid #dedede;
+	display: flex;
+	flex-direction: row;
+	margin-left: 28rpx;
+	margin-top: 32rpx;
+}
+.indexNoLine_BetIt1{
+	width: 168rpx;
+	height: 64rpx;
+	text-align: center;
+	opacity: 1;
+	font-size: 24rpx;
+	font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+	font-weight: 400;
+	text-align: center;
+	color: #808080;
+	line-height: 64rpx;
+	border-top: 1rpx solid #dedede;
+	border-left: 1rpx solid #dedede;
+}
+.indexNoLine_BetIt2{
+	width: 168rpx;
+	height: 64rpx;
+	text-align: center;
+	opacity: 1;
+	font-size: 24rpx;
+	font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+	font-weight: 400;
+	text-align: center;
+	color: #808080;
+	line-height: 64rpx;
+	border-top: 1rpx solid #dedede;
+	border-left: 1rpx solid #dedede;
+	border-right: 1rpx solid #dedede;
+}
+
+
+.indexNoLine_Bot{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.indexNoLine_BotTy1{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.indexNoLine_BotTy1Tit{
+	opacity: 1;
+	font-size: 24rpx;
+	font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+	font-weight: bold;
+	text-align: left;
+	color: #333333;
+	margin-top: 36rpx;
+	margin-left: 26rpx;
+}
+.indexNoLine_BotTy1Txt{
+	font-size: 24rpx;
+	color: #555555;
+	margin-top: 15rpx;
+	margin-left: 26rpx;
+}
+
+
+.indexNoLine_BotTy2{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	margin-top: 36rpx;
+}
+.indexNoLine_BotTy2Item{
+	
+	display: flex;
+	flex-direction: column;
+	margin-left: 40rpx;
+}
+.indexNoLine_BotTy2ItemTop{
+	width: 10rpx;
+	height: 10rpx;
+	opacity: 0.8;
+	background: #3e7bf8;
+	border-radius: 50%;
+}
+.indexNoLine_BotTy2ItemBot{
+	height: 124rpx;
+	border-radius: 2rpx;
+	display: flex;
+	flex-direction: column;
+	border-left: 2rpx solid #e6e6e6;
+	margin-left: 4rpx;
+}
+.indexNoLine_BotTy2ItemBotT{
+	display: flex;
+	flex-direction: row;
+	margin-left: 36rpx;
+}
+.indexNoLine_BotTy2ItemBotTL{
+	margin-left: 0;
+	font-size: 24rpx;
+	font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+	font-weight: 400;
+	text-align: left;
+	color: #3e7bf8;
+}
+.indexNoLine_BotTy2ItemBotTR{
+	margin-left: 10rpx;
+	font-size: 24rpx;
+}
+.indexNoLine_BotTy2ItemBotB{
+	font-size: 24rpx;
+	margin-top: 20rpx;
+	margin-left: 36rpx;
+}
+
+
+/* 转至营销 弹窗 */
+.dloginV{
+	width: 298rpx;
+	height: 210rpx;
+	opacity: 1;
+	background: #ffffff;
+	border: 2rpx solid #e6e6e6;
+	box-shadow: 0rpx 6rpx 40rpx 0rpx rgba(62,60,60,0.10);
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	right: 8rpx;
+	top: 78rpx;
+	z-index: 9;
+	background-color: #FFFFFF;
+}
+.dloginVItem{
+	width: 100%;
+	height: 64rpx;
+	opacity: 1;
+	opacity: 1;
+	font-size: 24rpx;
+	font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+	font-weight: 500;
+	text-align: center;
+	color: #333333;
+	line-height: 64rpx;
+}
+.dloginVItemActive{
+	background: #f2f3f5;
+}
+
+
+
+/* 已绑定联系人 */
+.indexHaveLine{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.indexHaveLineTop{
+	width: 100%;
+	height: 94rpx;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.indexHaveLineTopL{
+	height: 32rpx;
+	opacity: 1;
+	font-size: 32rpx;
+	font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+	font-weight: bold;
+	text-align: justifyLeft;
+	color: #333333;
+	line-height: 46rpx;
+	margin-left: 28rpx;
+}
+.indexHaveLineTopR{
+	width: 32rpx;
+	height: 32rpx;
+	margin-right: 40rpx;
+	margin-top: 32rpx;
+}
+.indexHaveLineTen{
+	width: calc(100% - 28rpx);
+	height: 40rpx;
+	display: flex;
+	flex-direction: row;
+	margin-left: 28rpx;
+}
+.indexHaveLineTenIt{
+	/* width: 80rpx; */
+	/* height: 40rpx; */
+	padding: 10rpx 18rpx 10rpx 22rpx;
+	opacity: 1;
+	background: #e4f1fa;
+	border-radius: 20rpx;
+	font-size: 20rpx;
+	font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+	font-weight: 400;
+	text-align: justifyLeft;
+	color: #34a8f9;
+	line-height: 20rpx;
+	text-align: center;
+}
+.indexHaveLineTen_cenL{
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+}
+.indexHaveLineTen_cenR{
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+}
+
+.indexNoLine_BetIt3{
+	width: 168rpx;
+	height: 64rpx;
+	text-align: center;
+	opacity: 1;
+	font-size: 24rpx;
+	font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+	font-weight: 400;
+	text-align: center;
+	color: #808080;
+	line-height: 64rpx;
+	border-top: 1rpx solid #dedede;
+	border-left: 1rpx solid #dedede;
+	/* border-right: 1rpx solid #dedede; */
+}
+
+.indexNoLine_BetItAcive{
+	color: #333333;
+	border-top: 6rpx solid #3e7bf8;
+}
+
+.indexHaveLineCen{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.indexHaveLineCenTy_1{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	
+}
+.indexHaveLineCenTy_1Item{
+	width: calc(100% - 68rpx);
+	height: 217rpx;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	position: relative;
+	border-bottom: 1rpx solid #dedede;
+}
+.indexHaveLineCenTy_1ItemOne{
+	display: flex;
+	flex-direction: row;
+	margin-top: 32rpx;
+}
+.indexHaveLineCenTy_1ItemOne_txt{
+	height: 28rpx;
+	opacity: 1;
+	font-size: 28rpx;
+	font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+	font-weight: bold;
+	text-align: left;
+	color: #333333;
+	line-height: 28rpx;
+}
+.indexHaveLineCenTy_1ItemOneBc{
+	width: 104rpx;
+	height: 34rpx;
+	background-color: #E4F1FA;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 13rpx;
+	border-radius: 20rpx;
+}
+.indexHaveLineCenTy_1ItemOneBc_img{
+	width: 80rpx;
+	height: 22rpx;
+	margin: 0 auto;
+	margin-top: 6rpx;
+}
+.indexHaveLineCenTy_1ItemTwo{
+	height: 26rpx;
+	opacity: 1;
+	font-size: 24rpx;
+	font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+	font-weight: 400;
+	text-align: left;
+	color: #808080;
+	line-height: 26rpx;
+	margin-top: 24rpx;
+}
+.indexHaveLineCenTy_1ItemThree{
+	height: 20rpx;
+	opacity: 1;
+	font-size: 24rpx;
+	font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+	font-weight: bold;
+	text-align: left;
+	color: #333333;
+	margin-top: 44rpx;
+}
+.indexHaveLineCenTy_1ItemBtn{
+	width: 100rpx;
+	height: 56rpx;
+	opacity: 1;
+	border: 2rpx solid #3e7bf8;
+	border-radius: 10rpx;
+	position: absolute;
+	top: 34rpx;
+	right: 40rpx;
+	font-size: 24rpx;
+	color: #3e7bf8;
+	line-height: 56rpx;
+	text-align: center;
+}
+
+.indexHaveLineCenTy_1AddBtn{
+	width: 288rpx;
+	height: 64rpx;
+	opacity: 1;
+	border: 2rpx solid #3e7bf8;
+	border-radius: 10rpx;
+	font-size: 24rpx;
+	font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+	font-weight: 400;
+	text-align: left;
+	color: #3e7bf8;
+	line-height: 64rpx;
+	text-align: center;
+	margin: 0 auto;
+	position: fixed;
+	bottom: 40rpx;
+	left: 212rpx;
+}
+
+
+.indexHaveLineCenTy_2{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.indexHaveLineCenTy_2Item{
+	width: calc(100% - 68rpx);
+	height: 172rpx;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	border-bottom: 1rpx solid #dedede;
+}
+.indexHaveLineCenTy_2ItemTop{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	margin-top: 34rpx;
+}
+.indexHaveLineCenTy_2ItemTopL{
+	height: 24rpx;
+	opacity: 1;
+	font-size: 24rpx;
+	font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+	font-weight: bold;
+	text-align: left;
+	color: #333333;
+}
+.indexHaveLineCenTy_2ItemTopR{
+	height: 24rpx;
+	font-size: 24rpx;
+	font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+	text-align: left;
+	color: #808080;
+	margin-left: 20rpx;
+}
+.indexHaveLineCenTy_2ItemTxt{
+	width: 646rpx;
+	height: 66rpx;
+	opacity: 1;
+	font-size: 24rpx;
+	font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+	font-weight: 500;
+	text-align: left;
+	color: #333333;
+	margin-top: 20rpx;
+}
+
+
+.indexHaveLineCenTy_3{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.indexHaveLineCenTy_3Item{
+	width: calc(100% - 68rpx);
+	height: 172rpx;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	border-bottom: 1rpx solid #dedede;
+}
+.indexHaveLineCenTy_3ItemOne{
+	height: 28rpx;
+	opacity: 1;
+	font-size: 24rpx;
+	font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+	font-weight: bold;
+	text-align: left;
+	color: #333333;
+	margin-top: 34rpx;
+}
+.indexHaveLineCenTy_3ItemPh{
+	font-size: 24rpx;
+	font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+	font-weight: 500;
+	text-align: left;
+	color: #808080;
+	margin-top: 16rpx;
+}
